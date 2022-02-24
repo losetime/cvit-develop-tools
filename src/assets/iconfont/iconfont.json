@@ -1,0 +1,30 @@
+{
+  "id": "3188365",
+  "name": "数字孪生管理后台",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "24259186",
+      "name": "用户头像-男",
+      "font_class": "nan_7",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "3101153",
+      "name": "1在线监测",
+      "font_class": "zaixianjiance",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "3279356",
+      "name": "辅助决策",
+      "font_class": "gaiicon-",
+      "unicode": "e6d4",
+      "unicode_decimal": 59092
+    }
+  ]
+}
