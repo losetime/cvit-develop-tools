@@ -89,7 +89,9 @@ const getFlowInfo = async () => {
       }
     })
     const renderEdges = data.edges
-      ? data.edges.map((item: any) => graph.value.createEdge({ ...item, shape: 'flow-edge' }))
+      ? data.edges.map((item: any) =>
+          graph.value.createEdge({ ...item, data: item.data ? JSON.parse(item.data) : {}, shape: 'flow-edge' }),
+        )
       : []
     const cells = [...renderNodes, ...renderEdges]
     graph.value.resetCells(cells)
@@ -126,7 +128,7 @@ const formattParams = () => {
     return {
       source: item.source,
       target: item.target,
-      id: item.data?.id,
+      data: JSON.stringify(item.data),
     }
   })
   const params = {

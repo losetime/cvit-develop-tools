@@ -14,14 +14,19 @@
         </div>
         <a-form :label-col="labelCol">
           <a-form-item has-feedback v-bind="validateInfos.userName">
-            <a-input v-model:value="loginInfo.userName" placeholder="请输入用户名">
+            <a-input v-model:value="loginInfo.userName" placeholder="请输入用户名" @keyup.enter="loginSubmit">
               <template #prefix>
                 <UserOutlined />
               </template>
             </a-input>
           </a-form-item>
           <a-form-item has-feedback v-bind="validateInfos.passWord">
-            <a-input v-model:value="loginInfo.passWord" type="password" placeholder="请输入密码">
+            <a-input
+              v-model:value="loginInfo.passWord"
+              type="password"
+              placeholder="请输入密码"
+              @keyup.enter="loginSubmit"
+            >
               <template #prefix>
                 <UnlockOutlined />
               </template>
@@ -30,7 +35,7 @@
           <a-form-item name="code" v-bind="validateInfos.code">
             <a-row type="flex" justify="space-between" align="middle">
               <a-col :span="16">
-                <a-input v-model:value="loginInfo.code" placeholder="请输入校验码">
+                <a-input v-model:value="loginInfo.code" placeholder="请输入校验码" @keyup.enter="loginSubmit">
                   <template #prefix>
                     <UnlockOutlined />
                   </template>

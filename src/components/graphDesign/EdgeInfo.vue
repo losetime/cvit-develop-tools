@@ -8,8 +8,8 @@
     width="600px"
   >
     <a-form :label-col="labelCol" labelAlign="left">
-      <a-form-item label="ID">
-        <a-input v-model:value="detailInfo.id" placeholder="请输入边ID" />
+      <a-form-item label="key">
+        <a-input v-model:value="detailInfo.key" placeholder="请输入边key" />
       </a-form-item>
     </a-form>
   </a-modal>
@@ -25,7 +25,7 @@ const visible = ref<boolean>(false)
 const title = ref<string>('扩展边属性')
 
 const detailInfo = reactive<any>({
-  id: '',
+  key: '',
 })
 
 const currentEdge = ref()
@@ -35,6 +35,7 @@ const currentEdge = ref()
  */
 const initModal = (edge: any) => {
   currentEdge.value = edge
+  detailInfo.key = edge.data.key
   visible.value = true
 }
 
@@ -42,8 +43,8 @@ const initModal = (edge: any) => {
  * @desc 确认操作
  */
 const handleConfirm = () => {
-  const degeData = currentEdge.value.getData()
-  currentEdge.value.setData({ ...degeData, id: detailInfo.id })
+  const edgeData = currentEdge.value.getData()
+  currentEdge.value.setData({ ...edgeData, key: detailInfo.key })
   handleCancel()
 }
 
