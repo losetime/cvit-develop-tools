@@ -1,16 +1,86 @@
 {
-  "id": "3188365",
-  "name": "数字孪生管理后台",
+  "id": "2915128",
+  "name": "云脉-监控系统",
   "font_family": "iconfont",
   "css_prefix_text": "icon-",
-  "description": "",
+  "description": "运维监控系统",
   "glyphs": [
+    {
+      "icon_id": "2674473",
+      "name": "关闭",
+      "font_class": "guanbi",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "1727563",
+      "name": "327全屏",
+      "font_class": "quanping",
+      "unicode": "e8fa",
+      "unicode_decimal": 59642
+    },
+    {
+      "icon_id": "1727566",
+      "name": "328退出全屏",
+      "font_class": "tuichuquanping",
+      "unicode": "e8fb",
+      "unicode_decimal": 59643
+    },
     {
       "icon_id": "24259186",
       "name": "用户头像-男",
       "font_class": "nan_7",
-      "unicode": "e611",
-      "unicode_decimal": 58897
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "20854117",
+      "name": "系统配置",
+      "font_class": "xitongpeizhi",
+      "unicode": "e6b4",
+      "unicode_decimal": 59060
+    },
+    {
+      "icon_id": "16077883",
+      "name": "统计",
+      "font_class": "tongji",
+      "unicode": "e680",
+      "unicode_decimal": 59008
+    },
+    {
+      "icon_id": "1304896",
+      "name": "用户",
+      "font_class": "yonghu",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "7171125",
+      "name": "部门管理",
+      "font_class": "bumenguanli",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "7720058",
+      "name": "菜单",
+      "font_class": "caidan",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "10213489",
+      "name": "角色管理",
+      "font_class": "jiaoseguanli",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "1411021",
+      "name": "1流量监测",
+      "font_class": "liuliangjiance",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
     },
     {
       "icon_id": "3101153",
@@ -20,11 +90,165 @@
       "unicode_decimal": 58899
     },
     {
-      "icon_id": "3279356",
-      "name": "辅助决策",
-      "font_class": "gaiicon-",
-      "unicode": "e6d4",
-      "unicode_decimal": 59092
+      "icon_id": "6965079",
+      "name": "监控设备",
+      "font_class": "jiankongshebei",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "11798986",
+      "name": "数据中心",
+      "font_class": "shujuzhongxin",
+      "unicode": "e648",
+      "unicode_decimal": 58952
+    },
+    {
+      "icon_id": "13332709",
+      "name": "系统",
+      "font_class": "xitong",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "22008687",
+      "name": "传感器2",
+      "font_class": "chuanganqi2",
+      "unicode": "e8dd",
+      "unicode_decimal": 59613
+    },
+    {
+      "icon_id": "25997129",
+      "name": "GIS应急指挥",
+      "font_class": "GISyingjizhihui",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "15222476",
+      "name": "图谱数据源",
+      "font_class": "tupushujuyuan",
+      "unicode": "e651",
+      "unicode_decimal": 58961
+    },
+    {
+      "icon_id": "18963798",
+      "name": "icon-主变局放",
+      "font_class": "icon-zhubianjufang",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "1368661",
+      "name": "3d",
+      "font_class": "d",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "2079830",
+      "name": "路由器",
+      "font_class": "luyouqi",
+      "unicode": "e645",
+      "unicode_decimal": 58949
+    },
+    {
+      "icon_id": "3640169",
+      "name": "查看大屏",
+      "font_class": "chakandaping",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "4016529",
+      "name": "云主机",
+      "font_class": "yunzhuji",
+      "unicode": "e6b8",
+      "unicode_decimal": 59064
+    },
+    {
+      "icon_id": "5387426",
+      "name": "水位传感器",
+      "font_class": "shuiweichuanganqi",
+      "unicode": "ead2",
+      "unicode_decimal": 60114
+    },
+    {
+      "icon_id": "11806532",
+      "name": "水浸传感器",
+      "font_class": "shuijinchuanganqi",
+      "unicode": "e66e",
+      "unicode_decimal": 58990
+    },
+    {
+      "icon_id": "15685823",
+      "name": "温湿度传感器",
+      "font_class": "wenshiduchuanganqi",
+      "unicode": "e700",
+      "unicode_decimal": 59136
+    },
+    {
+      "icon_id": "17407746",
+      "name": "大屏展示",
+      "font_class": "dapingzhanshi",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "20650054",
+      "name": "隔离带",
+      "font_class": "gelidai",
+      "unicode": "e69e",
+      "unicode_decimal": 59038
+    },
+    {
+      "icon_id": "21053678",
+      "name": "温度传感器",
+      "font_class": "wenduchuanganqi",
+      "unicode": "e673",
+      "unicode_decimal": 58995
+    },
+    {
+      "icon_id": "21053812",
+      "name": "服务器集群",
+      "font_class": "fuwuqijiqun",
+      "unicode": "e687",
+      "unicode_decimal": 59015
+    },
+    {
+      "icon_id": "18724124",
+      "name": "占位符",
+      "font_class": "zhanweifu",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "1415509",
+      "name": "交换机",
+      "font_class": "jiaohuanji",
+      "unicode": "e836",
+      "unicode_decimal": 59446
+    },
+    {
+      "icon_id": "16562571",
+      "name": "服务器",
+      "font_class": "fuwuqi",
+      "unicode": "e6d7",
+      "unicode_decimal": 59095
+    },
+    {
+      "icon_id": "21053687",
+      "name": "机柜",
+      "font_class": "jigui",
+      "unicode": "e675",
+      "unicode_decimal": 58997
+    },
+    {
+      "icon_id": "1304876",
+      "name": "监控",
+      "font_class": "jiankong",
+      "unicode": "e620",
+      "unicode_decimal": 58912
     }
   ]
 }

@@ -134,12 +134,7 @@ const useGraph = () => {
         inherit: 'vue-shape',
         width: 300,
         height: 100,
-        component: {
-          template: '<area-node></area-node>',
-          components: {
-            AreaNode,
-          },
-        },
+        component: AreaNode,
         ports: ConnectionPorts,
       },
       true,
@@ -150,12 +145,7 @@ const useGraph = () => {
         inherit: 'vue-shape',
         width: 100,
         height: 60,
-        component: {
-          template: '<algo-node></algo-node>',
-          components: {
-            AlgoNode,
-          },
-        },
+        component: AlgoNode,
         ports: ConnectionPorts,
       },
       true,

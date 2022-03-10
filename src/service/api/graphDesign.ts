@@ -3,14 +3,14 @@ import { $http } from '../http/index'
 import { IUpdateGraphName, IGetGraphList, IUpdateGraphNode } from '../types/graphDesign'
 
 enum Api {
-  getGraphList = 'http://192.168.35.211:19900/monitor/topologygraph/queryPage',
-  addGraphName = 'http://192.168.35.211:19900/monitor/topologygraph/add',
-  updateGraphName = 'http://192.168.35.211:19900/monitor/topologygraph/rename',
-  deleteGraphInfo = 'http://192.168.35.211:19900/monitor/topologygraph/batchDeleteGraph',
-  updateGraphNode = 'http://192.168.35.211:19900/monitor/topologygraph/saveNode',
-  updateGraph = 'http://192.168.35.211:19900/monitor/topologygraph/updateGraph',
-  getGraphInfo = 'http://192.168.35.211:19900/monitor/topologygraph/getGraphDetail',
-  deleteGraphNode = 'http://192.168.35.211:19900/monitor/topologygraph/deleteNode',
+  getGraphList = '/monitor/topologygraph/queryPage',
+  addGraphName = '/monitor/topologygraph/add',
+  updateGraphName = '/monitor/topologygraph/rename',
+  deleteGraphInfo = '/monitor/topologygraph/batchDeleteGraph',
+  updateGraphNode = '/monitor/topologygraph/saveNode',
+  updateGraph = '/monitor/topologygraph/updateGraph',
+  getGraphInfo = '/monitor/topologygraph/getGraphDetail',
+  deleteGraphNode = '/monitor/topologygraph/deleteNode',
 }
 
 /**
