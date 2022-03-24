@@ -65,6 +65,7 @@ const useGraph = () => {
         allowMulti: false, // 是否允许在相同的起始节点和终止之间创建多条边
         allowLoop: false,
         highlight: true,
+        router: 'metro',
         connector: 'normal',
         sourceAnchor: 'right',
         targetAnchor: 'center',

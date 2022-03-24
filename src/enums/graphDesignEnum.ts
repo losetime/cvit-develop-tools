@@ -8,7 +8,7 @@ export const ConnectionPorts = {
       id: 'in1',
       attrs: {
         circle: {
-          r: 5,
+          r: 4,
           magnet: true,
           stroke: '#B2C0D2',
           fill: '#fff',
@@ -21,7 +21,7 @@ export const ConnectionPorts = {
       id: 'in2',
       attrs: {
         circle: {
-          r: 5,
+          r: 4,
           magnet: true,
           stroke: '#B2C0D2',
           fill: '#fff',
@@ -34,7 +34,7 @@ export const ConnectionPorts = {
       id: 'out1',
       attrs: {
         circle: {
-          r: 5,
+          r: 4,
           magnet: true,
           stroke: '#B2C0D2',
           fill: '#fff',
@@ -47,7 +47,7 @@ export const ConnectionPorts = {
       id: 'out2',
       attrs: {
         circle: {
-          r: 5,
+          r: 4,
           magnet: true,
           stroke: '#B2C0D2',
           fill: '#fff',

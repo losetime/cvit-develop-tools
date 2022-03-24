@@ -27,6 +27,7 @@ const getX6 = (mode: string) => {
 export default ({ mode }) => {
   console.log(`当前环境：${mode}`)
   return defineConfig({
+    // base: '/graph/',
     resolve: {
       alias: [
         ...getX6(mode),
